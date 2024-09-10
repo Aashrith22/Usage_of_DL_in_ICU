@@ -5,22 +5,22 @@ The model continuously monitors patient conditions and provides timely risk pred
 
 Project Structure :
 
-*) app.py: Flask web application for the project, facilitating real-time prediction and visualization.
-*) Notebook.ipynb: Jupyter Notebook with model training and evaluation details.
-*) model.sav: Pre-trained RNN model saved for deployment.
-*) processed.csv: Processed dataset used for training and testing.
-*) scaler_data: Data scaler object for consistent feature scaling during prediction.
-*) signup.db: SQLite database for user management (e.g., for web app signups).
-*) flowchart: Visual flowchart outlining the model's workflow and prediction process.
-*) static/ & templates/: Directories for front-end components of the web app (CSS, HTML).
-*) archive/ & sample/: Additional data and code archives for reference.
+1) app.py: Flask web application for the project, facilitating real-time prediction and visualization.
+2) Notebook.ipynb: Jupyter Notebook with model training and evaluation details.
+3) model.sav: Pre-trained RNN model saved for deployment.
+4) processed.csv: Processed dataset used for training and testing.
+5) *) scaler_data: Data scaler object for consistent feature scaling during prediction.
+6) signup.db: SQLite database for user management (e.g., for web app signups).
+7) flowchart: Visual flowchart outlining the model's workflow and prediction process.
+8) static/ & templates/: Directories for front-end components of the web app (CSS, HTML).
+9) archive/ & sample/: Additional data and code archives for reference.
 
 Features :
-*) Real-Time Predictions: Flask-based app for making live predictions using the trained model.
-*) Pre-trained Model: Use the saved model.sav for inference.
-*) Data Processing: Preprocessed dataset and scaling utilities provided.
+1) Real-Time Predictions: Flask-based app for making live predictions using the trained model.
+2) Pre-trained Model: Use the saved model.sav for inference.
+3) Data Processing: Preprocessed dataset and scaling utilities provided.
 
 Technologies Used : 
-*) Python (Flask, TensorFlow, Scikit-learn)
-*) SQLite (for user management)
-*) Jupyter Notebook
+1) Python (Flask, TensorFlow, Scikit-learn)
+2) SQLite (for user management)
+3) Jupyter Notebook
